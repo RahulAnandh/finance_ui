@@ -1,0 +1,49 @@
+@media screen and (max-width: 1400px) {
+  input[type="text"],
+  input[type="password"],
+  input[type="email"] {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  input[type="text"],
+  input[type="password"]:hover {
+    border: 1px solid #11057e90;
+  }
+  select {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  input[type="submit"] {
+    width: 100%;
+    background-color: #093297;
+    color: white;
+    padding: 10px 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input:hover[type="submit"] {
+    background-color: #07205f;
+  }
+  .form-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* vh stands for viewport height */
+  }
+  form {
+    width: 100%; /* adjust this value to control the form's width */
+  }
+}
